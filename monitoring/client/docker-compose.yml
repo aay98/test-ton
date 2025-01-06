@@ -1,0 +1,7 @@
+services:
+  node_exporter:
+    image: prom/node-exporter:v1.8.2 # Latest tag 06.01.25
+    container_name: node_exporter
+    ports:
+      - "9100:9100"  # Node Exporter UI
+    restart: always
