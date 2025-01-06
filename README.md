@@ -29,6 +29,8 @@ sudo bash install.sh
 
 #### Для поднятия Grafana требуется:
 
+0. Скопируйте папку monitoring/server на сервер где будет запущена серверная часть
+
 1. Запустите Docker Compose:
 
    ```bash
@@ -49,6 +51,8 @@ sudo bash install.sh
 ---
 
 ### Клиентская Часть
+
+0. Скопируйте папку monitoring/client на сервер где будет запущена клиентская часть
 
 1. Запустите Docker Compose для клиентской части:
 
